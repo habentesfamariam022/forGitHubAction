@@ -5,6 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,11 +13,13 @@
   "dependencies": {
     "@azure/cosmos": "^3.17.1",
     "body-parser": "^1.18.3",
+    "build": "^0.1.4",
     "dotenv": "^16.0.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "lodash": "^4.17.11",
     "mongodb": "^4.11.0",
-    "mongoose": "^5.3.4"
+    "mongoose": "^5.3.4",
+    "npm-build": "^0.0.1"
   }
 }
